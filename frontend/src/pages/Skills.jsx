@@ -1,29 +1,36 @@
 import { motion } from 'framer-motion';
+import { FaCode, FaLayerGroup, FaDatabase, FaBrain, FaLaptopCode, FaTools } from 'react-icons/fa';
 
 const Skills = () => {
     const skillCategories = [
         {
             title: "Programming Languages",
+            icon: FaCode,
             skills: ["Python", "Java", "C", "C++", "JavaScript"]
         },
         {
             title: "Full Stack ",
+            icon: FaLayerGroup,
             skills: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
         },
         {
             title: "Databases",
+            icon: FaDatabase,
             skills: ["MongoDB", "MySQL"]
         },
         {
             title: "Machine Learning",
+            icon: FaBrain,
             skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"]
         },
         {
             title: "Web Development",
+            icon: FaLaptopCode,
             skills: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "Tailwind CSS", "Bootstrap"]
         },
         {
             title: "Tools & Platforms",
+            icon: FaTools,
             skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Weka", "Tinkercad", "Wokwi", "Fusion 360", "RD Works", "Prusa Slicer", "Antigravity", "Windsurf", "v0 by Vercel", "Cisco Packet Tracer", "Scratch", "MIT App Inventor"]
         }
     ];
@@ -69,7 +76,8 @@ const Skills = () => {
                             whileHover={{ scale: 1.02 }}
                             className="bg-white p-8 rounded-2xl shadow-lg border-l-8 border-primary hover:shadow-xl transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold text-secondary mb-6 border-b border-gray-200 pb-2">
+                            <h3 className="text-2xl font-bold text-secondary mb-6 border-b border-gray-200 pb-2 flex items-center">
+                                <category.icon className="mr-3 text-primary" />
                                 {category.title}
                             </h3>
                             <div className="flex flex-wrap gap-3">
