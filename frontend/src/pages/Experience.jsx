@@ -10,55 +10,55 @@ const Experience = () => {
             title: "FAO Science and Innovation Strategy",
             provider: "FAO eLearning Academy",
             description: "Certified by the Food and Agriculture Organization (FAO). Gained knowledge of global science, technology, and innovation frameworks.",
-            image: "https://img.sanishtech.com/u/eb7461c6fd379175b54f57512b455724.png"
+            image: "/certifications/fao-science.png"
         },
         {
             title: "Introduction to Prompt Engineering for Generative AI",
             provider: "LinkedIn Learning",
             description: "Developed foundational skills in AI prompting, prompt design, and effective interaction with generative AI systems.",
-            image: "https://img.sanishtech.com/u/2a60afd2650418821a39664b1deeadf1.png"
+            image: "/certifications/prompt-engineering.png"
         },
         {
             title: "What Is Generative AI?",
             provider: "LinkedIn Learning",
             description: "Learned core concepts of generative AI, its applications, tools, and real-world industry use cases.",
-            image: "https://img.sanishtech.com/u/5262afafe0996eabbba6e9f6f543f8db.png"
+            image: "/certifications/generative-ai.png"
         },
         {
             title: "Gamification and Gaming",
             provider: "Coursera / KCT",
             description: "Authorized by Kumaraguru College of Technology. Explored game design principles and engagement strategies.",
-            image: "https://img.sanishtech.com/u/c2e373eb001f648a9857cd561438f747.png"
+            image: "/certifications/gamification.png"
         },
         {
             title: "System Verilog for Semiconductor Design",
             provider: "NIT Trichy",
             description: "Workshop on hardware design, verification flow, and semiconductor development practices.",
-            image: "https://img.sanishtech.com/u/6faa3ea64952d1f399b0e729fdf5a9ce.png"
+            image: "/certifications/system-verilog.png"
         },
         {
             title: "Introduction to the Treatment of Tannery Effluents",
             provider: "UNIDO",
             description: "Certified by UNIDO. Understood industrial wastewater treatment methods and environmental impact.",
-            image: "https://img.sanishtech.com/u/c213b3d9796bfc14d9ebc76a2070fec1.png"
+            image: "/certifications/tannery-effluents.png"
         },
         {
             title: "Intro to ML, DL and Computer Vision",
             provider: "AI Club",
             description: "Completed an intensive summer school program. Gained foundational knowledge in machine learning, deep learning, and computer vision.",
-            image: "https://img.sanishtech.com/u/fa607372f768c4564b599b4670e74696.png"
+            image: "/certifications/intro-ml.png"
         },
         {
             title: "Introduction to Data Mining Course",
             provider: "Simplilearn SkillUp",
             description: "Certified by Simplilearn SkillUp. Learned essential data mining concepts including pattern discovery, preprocessing, and analytical methods.",
-            image: "https://img.sanishtech.com/u/eb27983d0824e18cc9b8530741c3a0d5.png"
+            image: "/certifications/data-mining.png"
         },
         {
             title: "Data Visualization",
             provider: "University of Illinois Urbana-Champaign / Coursera",
             description: "Authorized by UIUC. Developed skills in presenting data effectively using visual analytics, storytelling, and design principles.",
-            image: "https://img.sanishtech.com/u/0450c0357968c4afb7f904bd7b520806.png"
+            image: "/certifications/data-visualization.png"
         }
     ];
 
