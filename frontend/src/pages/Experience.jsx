@@ -46,7 +46,7 @@ const Experience = () => {
             title: "Intro to ML, DL and Computer Vision",
             provider: "AI Club",
             description: "Completed an intensive summer school program. Gained foundational knowledge in machine learning, deep learning, and computer vision.",
-            image: "/certifications/intro-ml.png"
+            image: "/certifications/Intro to ML.pdf.png"
         },
         {
             title: "Introduction to Data Mining Course",
