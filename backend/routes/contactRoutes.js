@@ -10,7 +10,10 @@ const nodemailer = require('nodemailer');
 router.post('/', async (req, res) => {
     const { name, email, message } = req.body;
 
+    console.log('Received contact form submission:', { name, email, message });
+
     if (!name || !email || !message) {
+        console.log('Validation failed: Missing fields');
         return res.status(400).json({ message: 'Please fill in all fields' });
     }
 
@@ -43,7 +46,7 @@ router.post('/', async (req, res) => {
                 console.error('Error sending email:', err);
                 // Don't fail the request if email fails, but log it
             } else {
-                console.log('Email sent:', info.response);
+                console.log('Email sent successfully:', info.response);
             }
         });
 

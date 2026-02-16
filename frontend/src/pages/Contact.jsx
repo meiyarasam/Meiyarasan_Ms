@@ -21,11 +21,21 @@ const Contact = () => {
         try {
             // Check if backend is running locally, adjust URL if needed
             const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+            console.log('API URL:', apiUrl); // Log API URL for debugging
+
             await axios.post(`${apiUrl}/api/contact`, formData);
             setStatus('success');
             setFormData({ name: '', email: '', message: '' });
         } catch (error) {
             console.error('Error sending message:', error);
+            if (error.response) {
+                console.error('Server responded with:', error.response.data);
+                console.error('Status code:', error.response.status);
+            } else if (error.request) {
+                console.error('No response received:', error.request);
+            } else {
+                console.error('Error setting up request:', error.message);
+            }
             setStatus('error');
         }
     };
