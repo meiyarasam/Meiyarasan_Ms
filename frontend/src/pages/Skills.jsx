@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaCode, FaLayerGroup, FaDatabase, FaBrain, FaLaptopCode, FaTools } from 'react-icons/fa';
+import { FaCode, FaLayerGroup, FaDatabase, FaBrain, FaLaptopCode, FaTools, FaHandshake } from 'react-icons/fa';
 
 const Skills = () => {
     const skillCategories = [
@@ -32,6 +32,11 @@ const Skills = () => {
             title: "Tools & Platforms",
             icon: FaTools,
             skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Weka", "Tinkercad", "Wokwi", "Fusion 360", "RD Works", "Prusa Slicer", "Antigravity", "Windsurf", "v0 by Vercel", "Cisco Packet Tracer", "Scratch", "MIT App Inventor"]
+        },
+        {
+            title: "Soft Skills",
+            icon: FaHandshake,
+            skills: ["Communication", "Leadership", "Teamwork", "Problem Solving", "Time Management", "Adaptability"]
         }
     ];
 
