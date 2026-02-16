@@ -10,37 +10,37 @@ const Experience = () => {
             title: "FAO Science and Innovation Strategy",
             provider: "FAO eLearning Academy",
             description: "Certified by the Food and Agriculture Organization (FAO). Gained knowledge of global science, technology, and innovation frameworks.",
-            image: "/certifications/fao-science.png"
+            image: "/certifications/Fao.png"
         },
         {
             title: "Introduction to Prompt Engineering for Generative AI",
             provider: "LinkedIn Learning",
             description: "Developed foundational skills in AI prompting, prompt design, and effective interaction with generative AI systems.",
-            image: "/certifications/prompt-engineering.png"
+            image: "/certifications/Prompt engerining.png"
         },
         {
             title: "What Is Generative AI?",
             provider: "LinkedIn Learning",
             description: "Learned core concepts of generative AI, its applications, tools, and real-world industry use cases.",
-            image: "/certifications/generative-ai.png"
+            image: "/certifications/generative ai.png"
         },
         {
             title: "Gamification and Gaming",
             provider: "Coursera / KCT",
             description: "Authorized by Kumaraguru College of Technology. Explored game design principles and engagement strategies.",
-            image: "/certifications/gamification.png"
+            image: "/certifications/Gamification and gaming.png"
         },
         {
             title: "System Verilog for Semiconductor Design",
             provider: "NIT Trichy",
             description: "Workshop on hardware design, verification flow, and semiconductor development practices.",
-            image: "/certifications/system-verilog.png"
+            image: "/certifications/system verilog.png"
         },
         {
             title: "Introduction to the Treatment of Tannery Effluents",
             provider: "UNIDO",
             description: "Certified by UNIDO. Understood industrial wastewater treatment methods and environmental impact.",
-            image: "/certifications/tannery-effluents.png"
+            image: "/certifications/Unido.png"
         },
         {
             title: "Intro to ML, DL and Computer Vision",
@@ -52,13 +52,13 @@ const Experience = () => {
             title: "Introduction to Data Mining Course",
             provider: "Simplilearn SkillUp",
             description: "Certified by Simplilearn SkillUp. Learned essential data mining concepts including pattern discovery, preprocessing, and analytical methods.",
-            image: "/certifications/data-mining.png"
+            image: "/certifications/Data Mining.png"
         },
         {
             title: "Data Visualization",
             provider: "University of Illinois Urbana-Champaign / Coursera",
             description: "Authorized by UIUC. Developed skills in presenting data effectively using visual analytics, storytelling, and design principles.",
-            image: "/certifications/data-visualization.png"
+            image: "/certifications/Data visualization.png"
         }
     ];
 

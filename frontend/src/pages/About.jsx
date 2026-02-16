@@ -161,6 +161,53 @@ const About = () => {
                     </motion.div>
                 </div>
             </div>
+
+            {/* Separator */}
+            <div className="max-w-7xl mx-auto px-8">
+                <div className="w-full h-2 bg-secondary"></div>
+            </div>
+
+            {/* Languages Section */}
+            <div className="max-w-7xl mx-auto px-8 py-20 pb-24">
+                <h3 className="text-3xl font-black text-secondary uppercase tracking-tighter mb-12 border-l-8 border-primary pl-6">
+                    Languages
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl">
+                    {/* Tamil */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.5 }}
+                        className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-primary flex items-center justify-between"
+                    >
+                        <div>
+                            <h4 className="text-2xl font-bold text-secondary uppercase">Tamil</h4>
+                            <span className="text-gray-500 font-medium"></span>
+                        </div>
+                        <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            TA
+                        </div>
+                    </motion.div>
+
+                    {/* English */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.5, delay: 0.1 }}
+                        className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-primary flex items-center justify-between"
+                    >
+                        <div>
+                            <h4 className="text-2xl font-bold text-secondary uppercase">English</h4>
+                            <span className="text-gray-500 font-medium"></span>
+                        </div>
+                        <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            EN
+                        </div>
+                    </motion.div>
+                </div>
+            </div>
         </section>
     );
 };
